@@ -573,8 +573,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.010498, y: 0.0007}
-  m_SizeDelta: {x: 160.57, y: 172.23}
+  m_AnchoredPosition: {x: -0.010498, y: 0.0034409}
+  m_SizeDelta: {x: 160.57, y: 189.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1441600052
 MonoBehaviour:
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.5138016, b: 0.4292453, a: 1}
+  m_Color: {r: 0.6084906, g: 0.85953015, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -673,8 +673,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: DreamMare
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ecd904c0d6144bfba77a4fd4a0ba705, type: 2}
-  m_sharedMaterial: {fileID: 6024122115173718326, guid: 5ecd904c0d6144bfba77a4fd4a0ba705, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -932,8 +932,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SMILE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ecd904c0d6144bfba77a4fd4a0ba705, type: 2}
-  m_sharedMaterial: {fileID: 6024122115173718326, guid: 5ecd904c0d6144bfba77a4fd4a0ba705, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1021,7 +1021,7 @@ GameObject:
   - component: {fileID: 2038213923}
   - component: {fileID: 2038213922}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Game Beaten Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1041,10 +1041,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1441600051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.15144, y: 4.9359984}
-  m_SizeDelta: {x: 95.79662, y: 9.872}
+  m_AnchorMin: {x: 0.52500004, y: 0.5}
+  m_AnchorMax: {x: 0.52500004, y: 0.5}
+  m_AnchoredPosition: {x: 0.65898657, y: 1.8}
+  m_SizeDelta: {x: 128.30566, y: 15.58489}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2038213922
 MonoBehaviour:
@@ -1068,8 +1068,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CONGRATS on completing a peaceful sleep schedule..
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ecd904c0d6144bfba77a4fd4a0ba705, type: 2}
-  m_sharedMaterial: {fileID: 6024122115173718326, guid: 5ecd904c0d6144bfba77a4fd4a0ba705, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
