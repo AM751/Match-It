@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DreamMare_Logo_0: 3793207538240910448
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

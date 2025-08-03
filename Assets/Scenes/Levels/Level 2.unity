@@ -617,9 +617,9 @@ GameObject:
   - component: {fileID: 791807074}
   - component: {fileID: 791807073}
   - component: {fileID: 791807072}
-  - component: {fileID: 791807071}
   - component: {fileID: 791807070}
   - component: {fileID: 791807069}
+  - component: {fileID: 791807075}
   m_Layer: 0
   m_Name: Flashing object
   m_TagString: Object
@@ -700,28 +700,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0060952, y: 1}
   m_EdgeRadius: 0
---- !u!95 &791807071
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 791807068}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 558bb476ae85f4a8faf43bb837d8e299, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &791807072
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -784,12 +762,27 @@ Transform:
   m_GameObject: {fileID: 791807068}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.4, y: 4.533617, z: 0.08602442}
+  m_LocalPosition: {x: -6.44, y: 2.2, z: 0.08602442}
   m_LocalScale: {x: 2.4770849, y: 1.8844764, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 904227952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &791807075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791807068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f7524c5208284c57be41a0e177298f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DirectionA: {x: 0, y: 0}
+  DirectionB: {x: 0, y: 0}
+  MoveSpeed: 7
 --- !u!1 &830206222
 GameObject:
   m_ObjectHideFlags: 0
@@ -2313,9 +2306,9 @@ GameObject:
   - component: {fileID: 1752137639}
   - component: {fileID: 1752137644}
   - component: {fileID: 1752137643}
-  - component: {fileID: 1752137642}
   - component: {fileID: 1752137641}
   - component: {fileID: 1752137640}
+  - component: {fileID: 1752137645}
   m_Layer: 0
   m_Name: Flashing object2
   m_TagString: Object
@@ -2332,7 +2325,7 @@ Transform:
   m_GameObject: {fileID: 1752137638}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.717749, y: 4.533617, z: 0.08602442}
+  m_LocalPosition: {x: 7.677749, y: 2.2399998, z: 0.08602442}
   m_LocalScale: {x: 2.4770849, y: 1.8844764, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2411,28 +2404,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0060952, y: 1}
   m_EdgeRadius: 0
---- !u!95 &1752137642
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1752137638}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 06f9d45ed013b44639a958d284857853, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &1752137643
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2486,6 +2457,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752137638}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1752137645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752137638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f7524c5208284c57be41a0e177298f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DirectionA: {x: 0, y: 0}
+  DirectionB: {x: 0, y: 0}
+  MoveSpeed: 7
 --- !u!1 &1979196774
 GameObject:
   m_ObjectHideFlags: 0
