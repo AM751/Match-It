@@ -12,8 +12,8 @@ public class ObjectMove : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        DirectionA = new Vector2 (-9.11f, -0.04f);
-        DirectionB = new Vector2 (9.16f, -0.04f);
+        DirectionA = new Vector2 (-7.51f, 0f);
+        DirectionB = new Vector2 (7.52f, 0f);
     }
 
     // Update is called once per frame

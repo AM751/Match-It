@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ObjectMoveLvlTwo : MonoBehaviour
+public class ObjectMoveLvlThree : MonoBehaviour
 {
     public Vector2 DirectionA;
     public Vector2 DirectionB;
@@ -11,14 +11,15 @@ public class ObjectMoveLvlTwo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        DirectionA = new Vector2 (-6.78f, 2.2f);
-        DirectionB = new Vector2 (8.26f, -5.73f);
+        DirectionA = new Vector2 (-6.64f, 2.03f);
+        DirectionB = new Vector2 (8.1f, -5.61f);
     }
 
     // Update is called once per frame
     void Update()
     {
         _movingTime += Time.deltaTime * MoveSpeed;
-        transform.position = Vector2.Lerp (DirectionA, DirectionB, Mathf.PingPong(_movingTime, 1f));
+        transform.position = Vector2.Lerp (DirectionA, DirectionB, Mathf.PingPong (_movingTime, 1f));
     }
 }
+ 
